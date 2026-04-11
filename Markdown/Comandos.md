@@ -46,7 +46,7 @@ O código para inserir uma imagem no conteúdo é semelhante ao código de inser
 ### Citação 
 Para transformar um texto em uma citação ou comentário, semelhante ao código HTML `<blockquote>`, utilize o sinal > no início da linha que será formatada
 
-~~~~
+~~~~md
 >Este é um *blockquote*. O sinal usado abre e fecha este código no HTML              
 >Para adicionar mais uma linha à citação, basta teclar Enter para um novo            
 >código sinal. Isso gerará um novo parágrafo dentro do `*blockquote*`.               
@@ -69,7 +69,7 @@ Para transformar um texto em uma citação ou comentário, semelhante ao código
 
 Escolha os títulos das colunas e use | para delimitar as colunas. Depois, utilize hífen - na segunda linha para indicar que acima estão os títulos das colunas, usando novamente o | para delimitar colunas.
 
-~~~
+~~~md
 Exemplo   | Valor do exemplo
 --------- | ------
 Exemplo 1 | R$ 10
@@ -77,6 +77,7 @@ Exemplo 2 | R$ 8
 Exemplo 3 | R$ 7
 Exemplo 4 | R$ 8
 ~~~
+
 #### Fica Assim:
 Exemplo   | Valor do exemplo
 --------- | ------
@@ -91,24 +92,3 @@ Para especificar o tipo de alinhamento que deseja ter nas tabelas, utilize : ao 
 * Alinhado a direita: usar : no lado direito;
 * Centralizado: usar : dos dois lados.
 
-### Cores
-~~~
-<span style="color:red">
-Texto Colorido
-</span>
-~~~
-
-<span style="color:red">
-Texto Colorido
-</span>
-
-### Fonte
-~~~
-<span style="font-size:18px">
-Este texto é maior que o normal.
-</span>
-~~~
-
-<span style="font-size:18px">
-Este texto é maior que o normal.
-</span>
